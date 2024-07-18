@@ -1,0 +1,63 @@
+body {
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.game-container {
+    background-color: #fff;
+    padding: 40px; /* Increased padding for better spacing */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 80%; /* Adjusted max-width for responsiveness */
+    width: 100%;
+    max-width: 600px; /* Max width for larger screens */
+}
+
+h1 {
+    font-size: 28px; /* Increased font size for heading */
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+input[type="number"], button {
+    padding: 16px 24px; /* Increased padding for better touchability */
+    font-size: 18px; /* Increased font size for inputs and buttons */
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    margin: 20px 0; /* Increased margin for better spacing */
+    width: calc(100% - 48px);
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+button {
+    cursor: pointer;
+    background-color: #2196F3;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0D47A1;
+}
+
+#message {
+    margin-top: 30px; /* Increased margin-top for better spacing */
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
